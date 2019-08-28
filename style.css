@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+
+header {
+    padding: 2em;
+    text-align: center;
+    background-size: cover;
+    background-position: fixed;
+    /* color: white; */
+  }
+
+  header img {
+    border-radius: 50%;
+    max-width: 270px;
+  }
+
+  h1 {
+      font-size: 50;
+      font-weight: 200;
+  }
+
+  .dev {
+      background-color: black;
+      font-weight: 100;
+      font-size: 30;
+      padding: 20px;
+      color: #ffffff;
+      
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 30;
+  }
+
+  p {
+      font-weight: 400;
+      font-size: 20;
+  }
+
+  .boxed-layout {
+	background: #eee;
+}
+.boxed-layout #pagewrap {
+	background: #fff;
+	max-width: 1160px;
+	margin: 30px auto;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+.boxed-layout #header .tf_row_inner, 
+.boxed-layout #middle, 
+.boxed-layout #footer .tf_row_inner {
+	padding: 0 3%;
+}
+
+section {
+    padding-left: 5em;
+    
+  
+}
+
+.skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+  }
+
+  .skills .column {
+    -ms-flex: 0 0 50%%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .skills .column ul, ul.job-description {
+    list-style-type: none;
+  }
+  
+  .skills .column ul > li:before {
+    content: "-";
+    padding-right: 0.5em;
+    color: #000000;
+  }
+  
+
+.about-list-icon {
+    text-align: center;
+}
+  .about-list-icon ul {
+    display: flex;
+    text-align: center;
+}
+.about-list-icon  ul li {
+    padding-right: 30px;
+    cursor:pointer;
+    
+}
+@media only screen and (max-width: 576px) {
+    .skills {
+      display: block;
+    }
+  
+    .skills .column {
+      max-width: 100%;
+    }
+
+    .school, .job-title {
+        text-transform: capitalize;
+      }
+      
+      .school span, .job-title span {
+        color: #889499;
+        text-decoration: underline;
+      }
+
+      h3 {
+        text-transform: uppercase;
+      }
+      
+      h3, h4 {
+        font-weight: bold;
+      }
