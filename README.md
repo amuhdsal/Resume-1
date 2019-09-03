@@ -1,3 +1,5 @@
-# startng
-timbu post
-https://twitter.com/Elljhai/status/1164882760286294018
+# startng Individual Task. Task 3
+my cv with html and css
+
+Lucid Blog post
+https://lucid.blog/Salasi/post/startng-the-magic-of-having-css-in-html-document-1bc
